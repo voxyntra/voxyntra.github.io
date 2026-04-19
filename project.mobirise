@@ -52,7 +52,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "6.1.5"
   },
   "pages": {
@@ -900,7 +900,7 @@
           },
           "_name": "video05",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video05\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,       'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\">\n    </div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n          <div class=\"col-12\">\n            <div class=\"title-wrapper mb-5\">\n                <h4 class=\"mbr-section-maintitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-maintitle\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\">\n                    <b>Watch Video</b>\n                </h4>\n            </div>\n          </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper\">\n                    <h2 class=\"mb-4 mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    <b>View in Action</b>\n                    </h2>\n                    <p class=\"mbr-text mb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Beyond the curtain's edge, whispers of creativity converge. A backstage realm unveils mystic\n                        transformations—shadows dance, tools transcend, and the ethereal fabricates.\n                    </p>\n                    <div class=\"mbr-section-btn mb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                            Learn more\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-12 col-md-{{videoWidth}} video-block\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://youtu.be/DvmfbS15enI?loop=1&autoplay=1\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-description mbr-fonts-style mt-3\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Shadows dance, creativity transcends\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video05\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,       'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\">\n    </div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n          <div class=\"col-12\">\n            <div class=\"title-wrapper mb-5\">\n                <h4 class=\"mbr-section-maintitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-maintitle\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\"><b>FEATURED TRACK</b></h4>\n            </div>\n          </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper\">\n                    <h2 class=\"mb-4 mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>NEON HEARTBEAT</b></h2>\n                    <p class=\"mbr-text mb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">A modern disco-driven track built on rhythm, emotion, and neon energy.<br>Where every beat pulses with life, and every moment feels alive.</p>\n                    <div class=\"mbr-section-btn mb-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                            Learn more\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-12 col-md-{{videoWidth}} video-block\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://youtu.be/DvmfbS15enI?loop=1&autoplay=1\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-description mbr-fonts-style mt-3\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Shadows dance, creativity transcends\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "vhdNggBall",
           "_protectedParams": [],
           "_global": false,
@@ -911,67 +911,93 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            "background-color": "@bgColor",
-            "input": {
-              "padding": "1.2rem 1.5rem",
-              "border": "none !important",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
               "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".socicon-bg-facebook": {
+              "background": "#1778f2",
+              "color": "contrast(#1778f2)",
               "&:hover": {
-                "border": "none !important"
+                "background": "darken(#1778f2, 10)"
               }
             },
-            ".btn": {
-              "height": "100%",
-              "margin": "auto"
-            },
-            ".text-wrapper": {
-              "@media (min-width: 992px)": {
-                "padding": "0 2rem"
+            ".socicon-bg-twitter": {
+              "background": "#1da1f2",
+              "color": "contrast(#1da1f2)",
+              "&:hover": {
+                "background": "darken(#1da1f2, 10)"
               }
             },
-            ".row": {
-              "justify-content": "center"
+            ".socicon-bg-pinterest": {
+              "background": "#e60023",
+              "color": "contrast(#e60023)",
+              "&:hover": {
+                "background": "darken(#e60023, 10)"
+              }
             },
-            ".mbr-section-btn": {
+            ".btn-social": {
+              "font-size": "32px",
+              "border-radius": "50%",
+              "padding": "0",
+              "width": "72px",
+              "height": "72px",
+              "line-height": "55px",
+              "position": "relative",
+              "cursor": "pointer",
+              "transition": "all 0.3s ease-in-out",
+              "i": {
+                "top": "0",
+                "line-height": "55px",
+                "width": "55px"
+              },
+              "border": "none !important",
+              "& when (@squareIcons)": {
+                "border-radius": "0 !important"
+              }
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "55px"
+            },
+            ".mbr-iconfont": {
+              "width": "72px",
+              "height": "72px",
               "display": "flex",
-              "margin-bottom": "1.2rem",
-              "width": "fit-content",
-              "@media (min-width: 768px)": {
-                "margin-left": "initial"
-              },
-              ".btn": {
-                "width": "auto"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".image-wrapper": {
-                "margin-bottom": "2rem"
-              },
-              ".content-wrapper": {
-                "flex-direction": "column-reverse"
-              }
-            },
-            ".justify-content-center": {
-              "align-items": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "color": "#ffd7ef"
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "100%",
+              "font-size": "32px",
+              "transition": "all 0.3s ease-in-out"
             }
           },
-          "_name": "form01",
+          "_name": "social03",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form1\" group=\"Form\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen}\" plugins=\"formstyler, datepicker\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<header>Background</header>\n\t\t<input type=\"color\" name=\"bgColor\" title=\"Color\" value=\"#260a30\" selected>\n\t\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row content-wrapper justify-content-center\">\n\t\t\t<div mbr-form class=\"col-lg-7 mbr-form\">\n\t\t\t\t<div class=\"col-lg-12 col-md-12 col-sm-12\">\n\t\t\t\t\t<h5 class=\"mbr-section-title mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n\t\t\t\t\t\t<b>VOXYNTRA</b>\n\t\t\t\t\t<div><b>AI Music. Human Soul.</b></div><br><div>© 2026 Voxyntra. All rights reserved.</div><div><b><br></b></div></h5>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"text-wrapper align-left\">\n\t\t\t\t\t<!--Formbuilder Form-->\n\t\t\t\t\t<form action name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified>\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n\t\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n\t\t\t\t\t\t\t\tOops...! some problem!\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"dragArea row\">\n\t\t\t\t\t\t\t<div data-for=\"email\" class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\n\t\t\t\t\t\t\t\t<input type=\"email\" name=\"email\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-auto mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n\t\t\t\t\t\t\t\t<a type=\"submit\" class=\"w-100 w-100 w-100 w-100 w-100 w-100 btn btn-secondary\" data-app-placeholder=\"Type Text\">Get Started</a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</form>\n\t\t\t\t\t<!--Formbuilder Form-->\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "vhdGi7o1eS",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"social03\" group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"SocialLikes,Socicon\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Square Icons\" name=\"squareIcons\">\n        <header>It will share the current page</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\">\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\">\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n       <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\">\n                <h3 class=\"mbr-section-title mb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-social-likes\">\n                    <b>VOXYNTRA</b>\n                </h3>\n                <p class=\"mbr-section-text mb-5 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-title, .mbr-social-likes\">\n                    AI Music. Human Soul.<br>© 2026 Voxyntra. All rights reserved.<br>\n                </p>\n                <div>\n                    <div class=\"mbr-social-likes align-center\">\n                        <span mbr-if=\"facebook\" class=\"btn btn-social socicon-bg-facebook facebook m-2\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn btn-social twitter socicon-bg-twitter m-2\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"pinterest\" class=\"btn btn-social pinterest socicon-bg-pinterest m-2\">\n                            <i class=\"socicon socicon-pinterest\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "vhdP3OR4h4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "form01-b"
+          "_anchor": "social03-f"
         }
       ]
     },
